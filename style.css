@@ -190,6 +190,9 @@
   .main-body .m-bdy-hero .hero-col-2 {
     margin-left: 20px;
   }
+  .attribution {
+    padding: 20px;
+  }
   .article-feact {
     display: flex;
     height: 130px;
