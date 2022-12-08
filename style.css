@@ -1,0 +1,206 @@
+@font-face {
+  font-family: inter-bold;
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: inter-exbold;
+  src: url("./assets/fonts/static/Inter-ExtraBold.ttf");
+}
+@font-face {
+  font-family: inter-rebold;
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container .container-main {
+  max-width: 1113px;
+  padding: 16px;
+}
+.container .container-main .nav-bar {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .container-main .nav-bar .side-menu {
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: hsl(36deg, 100%, 99%);
+  height: 100%;
+  z-index: 10;
+  width: 50%;
+  font-family: inter-bold;
+}
+.container .container-main .nav-bar .side-menu .side-close {
+  height: 100px;
+}
+.container .container-main .nav-bar .side-menu .side-close svg {
+  float: right;
+}
+.container .container-main .nav-bar .side-menu .menu-items {
+  clear: right;
+  display: flex;
+  flex-direction: column;
+}
+.container .container-main .nav-bar .side-menu .menu-items a {
+  text-decoration: none;
+  color: hsl(240deg, 100%, 5%);
+  margin-bottom: 30px;
+}
+.container .container-main .nav-bar .nav-bar-menu .nav-bar-menu-item {
+  text-decoration: none;
+  color: hsl(233deg, 8%, 79%);
+}
+.container .container-main .nav-bar .nav-bar-menu .nav-bar-menu-item:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+.container .container-main .nav-bar .nav-bar-menu .nav-bar-menu-item:not(:last-child) {
+  margin-right: 38px;
+}
+.container .container-main .nav-bar .burger-menu > div {
+  width: 40px;
+  height: 3px;
+  background-color: black;
+}
+.container .container-main .nav-bar .burger-menu > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+.container .container-main .main-body .m-bdy-hero {
+  margin-bottom: 50px;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-1 .in-hero-row {
+  padding: 30px 0;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-1 .in-hero-row .hero-title {
+  margin-right: 90px;
+  font-family: inter-exbold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-1 .in-hero-row .ab-hero {
+  display: flex;
+  flex-direction: column;
+  font-family: inter-rebold;
+  justify-content: space-between;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-1 .in-hero-row .ab-hero .ab-hero-com {
+  margin-bottom: 20px;
+  color: hsl(236deg, 13%, 42%);
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-1 .in-hero-row .ab-hero .hero-btn {
+  width: 200px;
+  background-color: hsl(5deg, 85%, 63%);
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-1 .in-hero-row .ab-hero .hero-btn:hover {
+  background-color: hsl(240deg, 100%, 5%);
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-2 {
+  flex: 2 1 70%;
+  background-color: hsl(240deg, 100%, 5%);
+  color: white;
+  font-family: inter-bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-2 h2 {
+  color: hsl(35deg, 77%, 62%);
+  font-size: 2rem;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-2 > .article {
+  margin-top: 30px;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-2 .article p {
+  color: hsl(236deg, 13%, 42%);
+  font-size: 14px;
+  margin-top: 15px;
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-2 .article span:hover {
+  color: hsl(35deg, 77%, 62%);
+}
+.container .container-main .main-body .m-bdy-hero .hero-col-2 .article:not(:last-child) {
+  border-bottom: 1px solid hsl(236deg, 13%, 42%);
+  padding-bottom: 30px;
+}
+.container .container-main .main-body .article-feact {
+  margin-bottom: 30px;
+}
+.container .container-main .main-body .article-feact > .feat:not(:last-child) {
+  margin-bottom: 40px;
+}
+.container .container-main .main-body .article-feact .feat {
+  display: flex;
+  gap: 20px;
+  font-family: inter-rebold;
+  height: 150px;
+}
+.container .container-main .main-body .article-feact .feat .ab-feat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .container-main .main-body .article-feact .feat .ab-feat h1 {
+  font-size: 2rem;
+  color: hsl(233deg, 8%, 79%);
+}
+.container .container-main .main-body .article-feact .feat .ab-feat h2:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+.container .container-main .main-body .article-feact .feat .ab-feat h2 {
+  font-size: 14px;
+}
+.container .container-main .main-body .article-feact .feat .ab-feat p {
+  color: hsl(236deg, 13%, 42%);
+  font-size: 14px;
+}
+
+@media (min-width: 880px) {
+  .container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .container .nav-bar {
+    margin-bottom: 20px;
+  }
+  .main-body .m-bdy-hero {
+    display: flex;
+    margin-bottom: 75px;
+  }
+  .main-body .m-bdy-hero .hero-col-1 .in-hero-row {
+    margin-top: 40px;
+    display: flex;
+  }
+  .main-body .m-bdy-hero .hero-col-1 .ab-hero {
+    display: flex;
+  }
+  .main-body .m-bdy-hero .hero-col-2 {
+    margin-left: 20px;
+  }
+  .article-feact {
+    display: flex;
+    height: 130px;
+    gap: 50px;
+  }
+}
+@media (min-width: 570px) {
+  .nav-bar .burger-menu {
+    display: none;
+  }
+  .nav-bar .nav-bar-menu {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
